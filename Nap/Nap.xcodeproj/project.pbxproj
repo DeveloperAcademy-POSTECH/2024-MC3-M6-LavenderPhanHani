@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00E2E24F2C520F0F00C06EE9 /* OnboardingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2E2492C520F0F00C06EE9 /* OnboardingTest.swift */; };
+		00E2E2502C520F0F00C06EE9 /* OnboardingView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2E24A2C520F0F00C06EE9 /* OnboardingView1.swift */; };
+		00E2E2512C520F0F00C06EE9 /* OnboardingView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2E24B2C520F0F00C06EE9 /* OnboardingView2.swift */; };
+		00E2E2522C520F0F00C06EE9 /* OnboardingView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2E24C2C520F0F00C06EE9 /* OnboardingView3.swift */; };
+		00E2E2532C520F0F00C06EE9 /* OnboardingView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2E24D2C520F0F00C06EE9 /* OnboardingView4.swift */; };
+		00E2E2542C520F0F00C06EE9 /* BGTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2E24E2C520F0F00C06EE9 /* BGTest.swift */; };
+		00E2E2562C520F1C00C06EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00E2E2552C520F1C00C06EE9 /* Assets.xcassets */; };
 		3928CA312C509EC200A5A823 /* NapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3928CA302C509EC200A5A823 /* NapApp.swift */; };
 		3928CA332C509EC200A5A823 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3928CA322C509EC200A5A823 /* ContentView.swift */; };
 		3928CA352C509EC300A5A823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3928CA342C509EC300A5A823 /* Assets.xcassets */; };
@@ -22,6 +29,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00E2E2492C520F0F00C06EE9 /* OnboardingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingTest.swift; sourceTree = "<group>"; };
+		00E2E24A2C520F0F00C06EE9 /* OnboardingView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView1.swift; sourceTree = "<group>"; };
+		00E2E24B2C520F0F00C06EE9 /* OnboardingView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView2.swift; sourceTree = "<group>"; };
+		00E2E24C2C520F0F00C06EE9 /* OnboardingView3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView3.swift; sourceTree = "<group>"; };
+		00E2E24D2C520F0F00C06EE9 /* OnboardingView4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView4.swift; sourceTree = "<group>"; };
+		00E2E24E2C520F0F00C06EE9 /* BGTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGTest.swift; sourceTree = "<group>"; };
+		00E2E2552C520F1C00C06EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3928CA2D2C509EC200A5A823 /* Nap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3928CA302C509EC200A5A823 /* NapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NapApp.swift; sourceTree = "<group>"; };
 		3928CA322C509EC200A5A823 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +62,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00E2E2482C520ED900C06EE9 /* OnboardingView */ = {
+			isa = PBXGroup;
+			children = (
+				00E2E24E2C520F0F00C06EE9 /* BGTest.swift */,
+				00E2E2492C520F0F00C06EE9 /* OnboardingTest.swift */,
+				00E2E24A2C520F0F00C06EE9 /* OnboardingView1.swift */,
+				00E2E24B2C520F0F00C06EE9 /* OnboardingView2.swift */,
+				00E2E24C2C520F0F00C06EE9 /* OnboardingView3.swift */,
+				00E2E24D2C520F0F00C06EE9 /* OnboardingView4.swift */,
+				00E2E2552C520F1C00C06EE9 /* Assets.xcassets */,
+			);
+			path = OnboardingView;
+			sourceTree = "<group>";
+		};
 		3928CA242C509EC200A5A823 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +95,7 @@
 		3928CA2F2C509EC200A5A823 /* Nap */ = {
 			isa = PBXGroup;
 			children = (
+				00E2E2482C520ED900C06EE9 /* OnboardingView */,
 				3928CA3E2C509FB500A5A823 /* Resource */,
 				3928CA3F2C509FBD00A5A823 /* Source */,
 				3928CA402C509FC300A5A823 /* Supporting File */,
@@ -271,6 +300,7 @@
 			files = (
 				3928CA502C50A63100A5A823 /* Launch Screen.storyboard in Resources */,
 				3928CA382C509EC300A5A823 /* Preview Assets.xcassets in Resources */,
+				00E2E2562C520F1C00C06EE9 /* Assets.xcassets in Resources */,
 				3928CA352C509EC300A5A823 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,11 +315,17 @@
 				3928CA332C509EC200A5A823 /* ContentView.swift in Sources */,
 				3928CA5B2C50A6BC00A5A823 /* Feed.swift in Sources */,
 				3928CA592C50A6B800A5A823 /* Friend.swift in Sources */,
+				00E2E2502C520F0F00C06EE9 /* OnboardingView1.swift in Sources */,
+				00E2E2512C520F0F00C06EE9 /* OnboardingView2.swift in Sources */,
 				3928CA5D2C50A6D600A5A823 /* StringConstant.swift in Sources */,
+				00E2E2532C520F0F00C06EE9 /* OnboardingView4.swift in Sources */,
 				3928CA4A2C50A48C00A5A823 /* View+.swift in Sources */,
 				3928CA552C50A69200A5A823 /* Onboarding.swift in Sources */,
+				00E2E2542C520F0F00C06EE9 /* BGTest.swift in Sources */,
 				3928CA4E2C50A58900A5A823 /* HapticManager.swift in Sources */,
 				3928CA572C50A6B000A5A823 /* Timer.swift in Sources */,
+				00E2E24F2C520F0F00C06EE9 /* OnboardingTest.swift in Sources */,
+				00E2E2522C520F0F00C06EE9 /* OnboardingView3.swift in Sources */,
 				3928CA312C509EC200A5A823 /* NapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
